@@ -7,7 +7,7 @@ class calificaciones:
         self.matricula = matricula
         self.password = password
 
-    def obtener_materias(self):
+    def obtener_datos(self):
         url = 'https://platinum.upchiapas.edu.mx/alumnos/login'
 
         client = requests.Session()
@@ -27,33 +27,8 @@ class calificaciones:
         html = client.get(self.link)
         content = html.content
         soup = b(content, "html.parser")
-
-        materias = soup.find("table", {"class":"califTable"})
-        totalMaterias = []
-        cal = []
-        for rows in materias.find_all('tr', {"class":"Approved"}):
-            aux = []
-            for columns in rows.find_all('span', {"class":"ApprovedBadge"}):
-                aux.append(columns.text)
-            cal.append(aux)
-            totalMaterias.append(rows.find('td', {"nowrap":"nowrap"}).text)
-            
-        # for rows in materias.find_all('tr', {"class":"Failed"}):
-        #     aux = []
-        #     for columns in rows.find_all('span', {"class":"ApprovedBadge"}):
-        #         aux.append(columns.text)
-        #     cal.append(aux)
-        #     totalMaterias.append(rows.find('td', {"nowrap":"nowrap"}).text)
-
-        # for i in range(len(totalMaterias)):
-        #     print("La materia: ", totalMaterias[i], " tiene calificaciones: ", cal[i])
-        # print('el total de cali son:', len(cal))
-        # for i in materias:
-        #     print(i)
-        # print('el total de materias son:', len(totalMaterias))
-        return totalMaterias, cal
-        # print(materias)
+        codigo_html = soup.decode('utf-8')
+        return codigo_html
     
-# if __name__ == '__main__':
-    # calificaciones("https://platinum.upchiapas.edu.mx/alumnos/calificaciones/historial", '193262', 'SqeadsltV=(h+c)*a_up19').obtener_materias()
-    
+if __name__ == '__main__':
+    calificaciones("https://platinum.upchiapas.edu.mx/alumnos/calificaciones/historial", '193262', 'SqeadsltV=(h+c)*a_up19').obtener_datos()

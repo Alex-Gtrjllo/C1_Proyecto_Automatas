@@ -1,0 +1,4365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <link href="https://platinum.upchiapas.edu.mx/siu/assets/imgs/favicon.png" rel="icon" type="image/png"/>
+ <head>
+  <title>
+   Platinum .:: Alumnos ::.
+  </title>
+  <link href="https://platinum.upchiapas.edu.mx/alumnos/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="https://platinum.upchiapas.edu.mx/alumnos/css/master.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="https://platinum.upchiapas.edu.mx/alumnos/css/sweetalert.css" media="all" rel="stylesheet" type="text/css"/>
+  <script src="https://platinum.upchiapas.edu.mx/alumnos/js/jquery-1.11.0.min.js">
+  </script>
+  <script src="https://platinum.upchiapas.edu.mx/alumnos/js/jquery-ui-1.10.4.custom.min.js">
+  </script>
+  <script src="https://platinum.upchiapas.edu.mx/alumnos/js/bootstrap.min.js">
+  </script>
+  <script src="https://platinum.upchiapas.edu.mx/alumnos/js/sweetalert.min.js">
+  </script>
+ </head>
+ <style>
+  @media (max-width: 600px) {
+      .userInfo
+      {
+      	font-size: 12px; !important;
+      }
+	  .tutor {
+		  font-size: 10px; !important;
+		}
+     }
+	 .tutor {
+		  font-size: 12px; !important;
+		}
+ </style>
+ <body>
+  <!-- Propiedad oncontextmenu = true para quitar el click derecho a la pagina  oncontextmenu="return false" -->
+  <div class="mainBody">
+   <div class="mainHeader">
+    <!-- <img src="https://platinum.upchiapas.edu.mx/alumnos/images/upchi_rueda.png"> -->
+    <div class="headerTitle">
+    </div>
+    <div class="userInfo">
+     <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+       <td>
+        Alexis  Gómez  Trujillo [193262]
+       </td>
+       <td rowspan="6">
+        <img src="https://platinum.upchiapas.edu.mx/alumnos/images/fotos2/28a46bbdcdaa8e05a2f349681294490ce4aceb36.jpg"/>
+       </td>
+      </tr>
+      <tr>
+       <td class="tutor" style="color: #AAAAAA !important">
+        <i>
+         Guzman Ruiz Roberto Eduardo
+        </i>
+       </td>
+      </tr>
+      <tr>
+       <td style="color: #AAAAAA !important">
+        Ingeniería en Desarrollo de Software - No. de Seguro Social: 68150062641
+       </td>
+      </tr>
+      <tr>
+       <td style="color: #AAAAAA !important">
+        Cuatrimestre 11 -
+        <span class="label label-success">
+         Inscrito
+        </span>
+        - Total de creditos:
+        <span class="label label-warning">
+         86%
+        </span>
+       </td>
+      </tr>
+      <tr>
+       <td style="color: #AAAAAA !important">
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/logout">
+         Cerrar Sesión
+        </a>
+       </td>
+      </tr>
+     </table>
+    </div>
+   </div>
+   <div style="display:none;">
+   </div>
+   <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+      <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+       <span class="sr-only">
+        Toggle navigation
+       </span>
+       <span class="icon-bar">
+       </span>
+       <span class="icon-bar">
+       </span>
+       <span class="icon-bar">
+       </span>
+      </button>
+      <a class="navbar-brand" href="https://platinum.upchiapas.edu.mx/alumnos/inicio" title="Inicio">
+       <span class="glyphicon glyphicon-home">
+       </span>
+      </a>
+     </div>
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         Calificaciones
+         <b class="caret">
+         </b>
+        </a>
+        <ul class="dropdown-menu">
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/calificaciones/index">
+           Cuatrimestre Actual
+          </a>
+         </li>
+         <li class="active">
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/calificaciones/historial">
+           Historial de Calificaciones
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/calificaciones/plan-estudios">
+         Plan de estudios
+        </a>
+       </li>
+       <!--<li ><a href="https://platinum.upchiapas.edu.mx/siu/documento/horario_alumno/193262">Horario</a></li>-->
+       <!-- //Durante las reinscipcioones este modulo permanecera ocultp -->
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/horario/index">
+         Horario
+        </a>
+       </li>
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         Pagos Referenciados
+         <b class="caret">
+         </b>
+        </a>
+        <ul class="dropdown-menu">
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/referenciabanc/index">
+           Pago en ventanilla bancaria
+          </a>
+         </li>
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/referenciabanc/spei">
+           Pago con Transferencia SPEI
+          </a>
+         </li>
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/referenciabanc/oxxo">
+           Pago en Tienda OXXO
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/formato/index">
+         Formatos
+        </a>
+       </li>
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         Reglamentos
+         <b class="caret">
+         </b>
+        </a>
+        <ul class="dropdown-menu">
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/media/reglamento-estudios.pdf" target="_blank">
+           Reglamento Escolar
+          </a>
+         </li>
+         <li>
+          <a href="https://www.upchiapas.edu.mx/media/270/files/reglamento-biblioteca.pdf" target="_blank">
+           Reglamento Biblioteca UPCH
+          </a>
+         </li>
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/media/ManualInducción2022.pdf" target="_blank">
+           Manual de Inducción UPChiapas 2022
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/vehiculo/index">
+         Registro de Vehículo
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/micredencial/index">
+         Mi Credencial
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/datospersonales/index">
+         Datos Personales
+        </a>
+       </li>
+       <!--
+              <li ><a href="https://platinum.upchiapas.edu.mx/alumnos/graduacion/index">Confirmación de Graduación</a></li>
+            -->
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/recibos/index">
+         Recibos
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/tramites/index">
+         Trámites en Línea
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/libros/index">
+         Libros Digitales
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/actividadcurricular/index">
+         Estancias y Estadias
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/preguntas/index">
+         Preguntas Frecuentes
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/procedimientos/index">
+         Procedimientos de Servicios Escolares
+        </a>
+       </li>
+       <!-- || Session::get('Cuatrimestre') == 1 -->
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/cuestionario/index">
+         Encuesta
+        </a>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/regresoclases/index">
+         Retorno Seguro
+        </a>
+       </li>
+       <!-- <li ><a href="https://platinum.upchiapas.edu.mx/alumnos/salud/index">Encuesta de Salud</a></li> -->
+       <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         Prórrogas
+         <b class="caret">
+         </b>
+        </a>
+        <ul class="dropdown-menu">
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/referenciaprorroga/index">
+           Prórroga con referencia
+          </a>
+         </li>
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/referenciaprorroga/spei">
+           Prórroga con SPEI
+          </a>
+         </li>
+         <li>
+          <a href="https://platinum.upchiapas.edu.mx/alumnos/referenciaprorroga/oxxo">
+           Prórroga en OXXO
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/calendario/index">
+         Calendario Escolar
+        </a>
+       </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/micuenta/cambiar-contrase%C3%B1a">
+         Cambiar Contraseña
+        </a>
+       </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+       <li>
+        <a href="https://platinum.upchiapas.edu.mx/alumnos/mensajes/index">
+         Mensajes
+         <span class="badge">
+         </span>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+   <div class="mainContent">
+    <h1>
+     Historial
+    </h1>
+    <hr/>
+    <div width="100%">
+     <div align="center" style="width:50%; float:left">
+      <h3>
+       <b>
+        Promedio con reprobadas
+        <span style="background-color: #5BC0DE; color: white; border-radius: 4px;">
+         85.95
+        </span>
+       </b>
+      </h3>
+     </div>
+     <div align="center" style="width:50%; float:left">
+      <h3>
+       <b>
+        Promedio sin reprobadas
+        <span style="background-color: #5BC0DE; color: white; border-radius: 4px;">
+         92.6
+        </span>
+       </b>
+      </h3>
+     </div>
+    </div>
+    <br/>
+    <table border="0" cellpadding="0" cellspacing="0" class="califTable">
+     <tr>
+      <th colspan="11">
+       SEPTIEMBRE-DICIEMBRE 2019
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés I
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        99
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Química Básica
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        76
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        87.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Álgebra Lineal
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        83.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Fundamentos de Computación
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98.4
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        82
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92.13
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Algoritmos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        83
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Matemáticas Discretas
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        69.99
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Expresión Oral y Escrita I
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        87
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       ENERO-ABRIL 2020
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés II
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Desarrollo Humano y Valores
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Cálculo Diferencial
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        35
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        76
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        72
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación Orientada a Objetos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        86
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        83.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Estructura de Datos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        66
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        83
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        86
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Ingeniería de Software Asistida por Computadora
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        78.23
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        83.45
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88.2
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91.07
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Procesos de Desarrollo de Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       MAYO-AGOSTO 2020
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés III
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inteligencia Emocional y Manejo de Conflictos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Cálculo Integral
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        84
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación Visual
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        30
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Estructura de Datos Avanzadas
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Fundamentos de Base de Datos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Ingeniería de Requerimientos de Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92.05
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97.5
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96.52
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       SEPTIEMBRE-DICIEMBRE 2020
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés IV
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Habilidades Cognitivas y Creatividad
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        99
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        99.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Matemáticas para Ingeniería I
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación Web
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        83
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Diseño de Interfaces
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Base de Datos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        89
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Electricidad y Magnetismo
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        17
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        45
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        81.25
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90.75
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       ENERO-ABRIL 2021
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés V
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        84
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Ética Profesional
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        99
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Matemáticas para Ingeniería II
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        86
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        69
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación Cliente Servidor
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        73.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Fundamentos de Redes
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        55.7
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88.54
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        79.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        89.7
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85.86
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Arquitectura de Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98.25
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96.64
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Sistemas Digitales
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       MAYO-AGOSTO 2021
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés VI
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        89
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        79
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        86.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Habilidades Gerenciales
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Probabilidad y Estadística
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        22.08
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        23.25
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        74.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        82.75
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80.69
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Arquitectura de Computadoras
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Redes
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Calidad del Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Liderazgo de Equipos de Alto Desempeño
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       SEPTIEMBRE-DICIEMBRE 2021
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Estancia I
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        40
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        40
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        30
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés VII
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Lenguajes y Autómatas
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Sistemas Operativos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación Concurrente
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Pruebas del Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        79
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        89
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        87.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       ENERO-ABRIL 2022
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Análisis Financiero de Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        70
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        57.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inteligencia Artificial
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación para Móviles I
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        60
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        20
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        13.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés VIII
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        69
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        37.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Failed">
+      <td width="1">
+       <span class="glyphicon glyphicon-remove">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Mantenimiento de Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        99
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        24
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        24
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        44.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Multimedia y Diseño Digital
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       MAYO-AGOSTO 2022
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inteligencia Artificial
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95.6
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88.53
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Análisis Financiero de Software
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        85
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés VIII
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        80
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Mantenimiento de Software
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación para Móviles I
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       SEPTIEMBRE-DICIEMBRE 2022
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Estancia I
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        40
+       </span>
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        36
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Inglés IX
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        89.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Programación para Móviles II
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        88
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Seguridad de la Información
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        96
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Minería de Datos
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        100
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        90
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93.33
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Administración de Proyectos de Software
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        98
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        86
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        89
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Arquitectura Orientada a Servicios
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        91
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        93
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        92.67
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr class="Approved">
+      <td width="1">
+       <span class="glyphicon glyphicon-ok">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Expresión Oral y Escrita II
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        94
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        95
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <th colspan="11">
+       ENERO-ABRIL 2023
+      </th>
+     </tr>
+     <tr>
+      <th>
+      </th>
+      <th>
+       Materia
+      </th>
+      <th>
+       Examen
+      </th>
+      <th>
+       Corte 1
+      </th>
+      <th>
+       Corte 2
+      </th>
+      <th>
+       Corte 3
+      </th>
+      <th>
+       Recup 1
+      </th>
+      <th>
+       Recup 2
+      </th>
+      <th>
+       Recup 3
+      </th>
+      <th>
+       Final
+      </th>
+      <th>
+       Extra
+      </th>
+     </tr>
+     <tr>
+      <td width="1">
+       <span class="glyphicon glyphicon-unchecked">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Estancia II
+      </td>
+      <td width="1">
+       Ordinario
+      </td>
+      <td width="1">
+       <span class="ApprovedBadge">
+        97
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+     <tr>
+      <td width="1">
+       <span class="glyphicon glyphicon-unchecked">
+       </span>
+      </td>
+      <td nowrap="nowrap" width="1">
+       Lenguajes y Autómatas
+      </td>
+      <td width="1">
+       Repetición
+      </td>
+      <td width="1">
+       <span class="FailedBadge">
+        10
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+      <td width="1">
+       <span class="DefaultBadge">
+        0
+       </span>
+      </td>
+     </tr>
+    </table>
+   </div>
+   <div class="push">
+   </div>
+  </div>
+  <div class="mainFooter">
+   <div class="leftImage">
+    <!--    <img src="https://platinum.upchiapas.edu.mx/alumnos/images/upchi_gris.png"> -->
+   </div>
+   <!--  Calle Eduardo J.Selvas S/N entre Manuel de J.Cancino y Enriqueta Camarillo, Col. Magisterial, Tuxtla Gutierrez Chiapas, Mexico. C.P.29082 <br>
+        Tel +52 (961) 61 20484 y Fax +52 (961) 61 20499 -->
+   <div class="rightImage">
+    <!--      <img src="https://platinum.upchiapas.edu.mx/alumnos/images/chiapas_slo.png">  -->
+   </div>
+  </div>
+ </body>
+</html>

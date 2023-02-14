@@ -23,36 +23,6 @@
       <height>501</height>
      </rect>
     </property>
-    <column>
-     <property name="text">
-      <string>Materia</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Status</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>C1</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>C2</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>C3</string>
-     </property>
-    </column>
-    <column>
-     <property name="text">
-      <string>Final</string>
-     </property>
-    </column>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

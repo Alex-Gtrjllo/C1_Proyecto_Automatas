@@ -14,26 +14,14 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_datos(object):
     def setupUi(self, datos):
         datos.setObjectName("datos")
-        datos.resize(1005, 598)
+        datos.resize(2140, 1320)
         self.centralwidget = QtWidgets.QWidget(datos)
         self.centralwidget.setObjectName("centralwidget")
         self.table = QtWidgets.QTableWidget(self.centralwidget)
-        self.table.setGeometry(QtCore.QRect(30, 30, 831, 501))
+        self.table.setGeometry(QtCore.QRect(30, 30, 2080, 1250))
         self.table.setObjectName("table")
-        self.table.setColumnCount(6)
+        self.table.setColumnCount(0)
         self.table.setRowCount(0)
-        item = QtWidgets.QTableWidgetItem()
-        self.table.setHorizontalHeaderItem(0, item)
-        item = QtWidgets.QTableWidgetItem()
-        self.table.setHorizontalHeaderItem(1, item)
-        item = QtWidgets.QTableWidgetItem()
-        self.table.setHorizontalHeaderItem(2, item)
-        item = QtWidgets.QTableWidgetItem()
-        self.table.setHorizontalHeaderItem(3, item)
-        item = QtWidgets.QTableWidgetItem()
-        self.table.setHorizontalHeaderItem(4, item)
-        item = QtWidgets.QTableWidgetItem()
-        self.table.setHorizontalHeaderItem(5, item)
         datos.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(datos)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1005, 18))
@@ -49,18 +37,6 @@ class Ui_datos(object):
     def retranslateUi(self, datos):
         _translate = QtCore.QCoreApplication.translate
         datos.setWindowTitle(_translate("datos", "datos"))
-        item = self.table.horizontalHeaderItem(0)
-        item.setText(_translate("datos", "Materia"))
-        item = self.table.horizontalHeaderItem(1)
-        item.setText(_translate("datos", "Status"))
-        item = self.table.horizontalHeaderItem(2)
-        item.setText(_translate("datos", "C1"))
-        item = self.table.horizontalHeaderItem(3)
-        item.setText(_translate("datos", "C2"))
-        item = self.table.horizontalHeaderItem(4)
-        item.setText(_translate("datos", "C3"))
-        item = self.table.horizontalHeaderItem(5)
-        item.setText(_translate("datos", "Final"))
 
 
 if __name__ == "__main__":
